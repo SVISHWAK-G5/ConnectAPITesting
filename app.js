@@ -19,9 +19,12 @@ app.use(bodyParser.json());
 
 var data="";
 
-app.listen(3034,()=>{
-    console.log('server is running')
-});
+const PORT = process.env.PORT || 3034;
+
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`)
+})
+
 
 app.get('/Testing',(req,response)=>{
     var data =new Object();
