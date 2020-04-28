@@ -120,4 +120,8 @@ app.post('/GetInteractionByBDI', function(req, response) {
 //res.send()
 });
 
+app.get('/api/testapi',(req,res)=>{
+  res.send('working fine');
+})
+
 
