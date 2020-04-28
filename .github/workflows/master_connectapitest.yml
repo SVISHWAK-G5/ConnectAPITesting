@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'connectapitest'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d9175219f011493d99e9ab67db9378e8 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_8fa68d8237644130aa59abb017c66561 }}
         package: .
